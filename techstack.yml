@@ -1,11 +1,11 @@
 repo_name: DimondDot/ror_ecommerce
-report_id: 586bdc427c654f0d754b0a2b8b088ec6
+report_id: a09ba388044314299f6801467834e997
 repo_type: Public
-timestamp: '2023-12-07T08:44:08+00:00'
+timestamp: '2023-12-08T12:32:44+00:00'
 requested_by: drhenner
 provider: github
 branch: master
-detected_tools_count: 59
+detected_tools_count: 61
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -77,6 +77,17 @@ tools:
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2010-10-17 04:06:06.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: app/assets/fonts/Economica SIL OFL Font License 1.1.txt
+  last_updated_by: David Henner
+  last_updated_on: 2013-01-08 17:17:44.000000000 Z
 - name: Capybara
   description: Acceptance test framework for web applications
   website_url: http://jnicklas.github.io/capybara/
@@ -179,6 +190,17 @@ tools:
   detection_source: app/assets/javascripts/markitup/templates/preview.html
   last_updated_by: Dean Perry
   last_updated_on: 2012-08-21 20:33:54.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: app/assets/fonts/Economica SIL OFL Font License 1.1.txt
+  last_updated_by: David Henner
+  last_updated_on: 2013-01-08 17:17:44.000000000 Z
 - name: UglifyJS
   description: A JavaScript parser, minifier, compressor and beautifier toolkit.
   website_url: http://lisperator.net/uglifyjs/
