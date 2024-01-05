@@ -1,11 +1,12 @@
 repo_name: DimondDot/ror_ecommerce
-report_id: bda453fbfa69d381c44fd89aea17f7c0
+report_id: 586bdc427c654f0d754b0a2b8b088ec6
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-08T13:09:34+00:00'
+timestamp: '2024-01-05T15:38:34+00:00'
 requested_by: drhenner
 provider: github
 branch: master
-detected_tools_count: 61
+detected_tools_count: 58
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -36,7 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Repo Metadata
   last_updated_by: David Henner
   last_updated_on: 2013-01-23 09:25:20.000000000 Z
@@ -50,7 +53,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/990/x57_Lorv.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -63,6 +66,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -74,20 +78,10 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2010-10-17 04:06:06.000000000 Z
-- name: pgvector
-  description: Open-source vector similarity search for Postgres
-  website_url: https://github.com/pgvector/pgvector/
-  open_source: false
-  hosted_saas: false
-  category: Data Stores
-  sub_category: Database Tools
-  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
-  detection_source: app/assets/fonts/Economica SIL OFL Font License 1.1.txt
-  last_updated_by: David Henner
-  last_updated_on: 2013-01-08 17:17:44.000000000 Z
 - name: Capybara
   description: Acceptance test framework for web applications
   website_url: http://jnicklas.github.io/capybara/
@@ -98,7 +92,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2595/capybara.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-07-02 20:34:48.000000000 Z
@@ -110,6 +104,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce
   detection_source: Repo Metadata
 - name: RSpec
   description: Behaviour Driven Development for Ruby
@@ -121,7 +116,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2539/logo.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2010-10-17 04:06:06.000000000 Z
@@ -133,6 +128,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2010-10-17 04:06:06.000000000 Z
@@ -145,6 +141,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Dean Perry
   last_updated_on: 2012-09-08 16:23:36.000000000 Z
@@ -156,6 +153,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2010-10-17 04:06:06.000000000 Z
@@ -167,6 +165,7 @@ tools:
   category: Assets and Media
   sub_category: File Uploads
   image_url: https://img.stackshare.io/service/2542/AqsQWFu-_400x400.jpg
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-07-11 00:49:10.000000000 Z
@@ -178,29 +177,10 @@ tools:
   category: Communications
   sub_category: Transactional Email
   image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/config/environments/production.rb
   detection_source: config/environments/production.rb
   last_updated_by: David Henner
   last_updated_on: 2010-10-17 04:06:06.000000000 Z
-- name: HTML
-  description: Hypertext Markup Language for creating web pages.
-  website_url: http://
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
-  detection_source: app/assets/javascripts/markitup/templates/preview.html
-  last_updated_by: Dean Perry
-  last_updated_on: 2012-08-21 20:33:54.000000000 Z
-- name: LangChain
-  description: Build AI apps with LLMs through composability
-  website_url: https://github.com/hwchase17/langchain
-  open_source: true
-  hosted_saas: false
-  category: Communications
-  sub_category: Large Language Model Tools
-  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
-  detection_source: app/assets/fonts/Economica SIL OFL Font License 1.1.txt
-  last_updated_by: David Henner
-  last_updated_on: 2013-01-08 17:17:44.000000000 Z
 - name: UglifyJS
   description: A JavaScript parser, minifier, compressor and beautifier toolkit.
   website_url: http://lisperator.net/uglifyjs/
@@ -209,6 +189,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2013-09-14 23:27:37.000000000 Z
@@ -222,7 +203,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18977/default_bc359c39d5bb5b07850d1bca94ab8afbc55734a2.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: drhenner
   last_updated_on: 2014-01-04 02:27:36.000000000 Z
@@ -243,7 +224,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19294/default_884a22e9df9e57283c5b613256b2fd8913e1117c.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-20 09:10:42.000000000 Z
@@ -258,7 +239,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19206/default_33c8326f97a56642e8765668fc1ba3bfeb911247.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-07-11 00:49:10.000000000 Z
@@ -272,7 +253,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-07-02 20:34:48.000000000 Z
@@ -286,7 +267,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19377/default_63483bd20cbd1c069543c0b924fcbd88fd2c7de1.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-07-29 04:42:17.000000000 Z
@@ -299,7 +280,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19251/default_98f442e49a9cf6ba040115f23dce11c5a9c322be.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -313,7 +294,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19299/default_85ad5a81d9f6bf567a15cbb73534a6e4443271eb.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-20 09:10:42.000000000 Z
@@ -327,7 +308,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18869/default_63d360ffaa27bed91e2b067fb467407b5c9da0ed.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-07-11 00:49:10.000000000 Z
@@ -341,7 +322,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-15 03:42:00.000000000 Z
@@ -362,7 +343,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-07-02 20:34:48.000000000 Z
@@ -376,7 +357,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19065/default_0de2dc998e38d7217cd579e9d3b17d38e75b679e.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: drhenner
   last_updated_on: 2014-01-04 02:27:36.000000000 Z
@@ -390,7 +371,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2015-06-17 05:01:41.000000000 Z
@@ -404,7 +385,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19191/default_2266a6c0e2693d55b1999a7c5db4be13e5720232.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-07-03 06:06:15.000000000 Z
@@ -418,7 +399,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18990/default_c2edad6777219a9d77730c33c0ffc3c4598d107f.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2013-03-06 21:45:53.000000000 Z
@@ -432,7 +413,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19229/default_df0c87c1d1c9c662c2ad960d8e93130abb553ed2.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -447,7 +428,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-06-12 23:28:08.000000000 Z
@@ -461,7 +442,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18854/default_09811c2c16af4754129f39ba1dab0d23ca3d2476.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-15 03:42:00.000000000 Z
@@ -476,7 +457,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19459/default_de854f0c757466f4cce7c01e288f5f01a5e38432.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2012-12-31 19:32:09.000000000 Z
@@ -490,7 +471,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19654/default_031d700d5f589b872d1d7b6f6ef54682aec7dc44.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-07-03 01:28:26.000000000 Z
@@ -505,7 +486,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18878/default_0cd89f02ed75d3a8429cd566a89b1a4a36ad114f.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-11-09 19:51:10.000000000 Z
@@ -520,7 +501,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18885/default_2ee21c0657d6b4f7c9a25f371c4eb30f678e82bb.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -534,7 +515,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2010-10-17 04:06:06.000000000 Z
@@ -548,7 +529,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -563,7 +544,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19084/default_54dcdbda5f19ac7cce7dfde7a31f57a35d2cdc2f.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: romiras
   last_updated_on: 2015-06-16 14:48:17.000000000 Z
@@ -577,7 +558,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2013-07-14 10:41:58.000000000 Z
@@ -592,7 +573,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -631,7 +612,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19034/default_3b4cf18706356e37d5fd855ffc4bc322798b3fd9.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -671,7 +652,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -693,7 +674,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18893/default_421783d7f975d1b076f260bea1d42f0b2621ca39.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2011-11-14 00:21:06.000000000 Z
@@ -707,7 +688,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18834/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-07-02 20:34:48.000000000 Z
@@ -721,7 +702,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18883/default_947bd37125b8812cb816bc3cf571b13df90a4fe0.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-07-29 04:42:17.000000000 Z
@@ -735,7 +716,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2014-11-30 22:00:19.000000000 Z
@@ -945,7 +926,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19058/default_cafacebf9602efba5c9e675f02335a1684f56941.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-11-09 19:51:10.000000000 Z
@@ -959,7 +940,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19298/default_665ed3fcb2a1ba0439337b543b18095155087d89.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -973,7 +954,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -987,7 +968,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Torsten Ruger
   last_updated_on: 2013-12-02 20:33:49.000000000 Z
@@ -1008,7 +989,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18925/default_e338e2555176782d684cb0520d8c7d817f6bbe4f.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-11-09 19:51:10.000000000 Z
@@ -1029,7 +1010,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -1043,7 +1024,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
@@ -1058,7 +1039,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-11-09 19:51:10.000000000 Z
@@ -1080,7 +1061,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2013-09-14 23:27:37.000000000 Z
@@ -1095,7 +1076,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18959/default_d56e7cc665032604d9f725997e6ccc641992a4f2.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-15 03:42:00.000000000 Z
@@ -1109,7 +1090,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
-  detection_source_url: github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Dean Perry
   last_updated_on: 2012-08-13 21:35:11.000000000 Z
