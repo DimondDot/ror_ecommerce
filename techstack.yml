@@ -2,7 +2,7 @@ repo_name: DimondDot/ror_ecommerce
 report_id: 802be23d4a5ec6171ac85a10989e45fc
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-21T10:38:38+00:00'
+timestamp: '2024-02-29T20:09:36+00:00'
 requested_by: drhenner
 provider: github
 branch: master
@@ -1113,3 +1113,10 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 0.9.20
+  - name: YARD's default template vulnerable to Cross-site Scripting in generated
+      frames.html
+    cve_id: CVE-2024-27285
+    cve_url: https://github.com/advisories/GHSA-8mq4-9jjh-9xrc
+    detected_date: Feb 29
+    severity: moderate
+    first_patched: 0.9.35
