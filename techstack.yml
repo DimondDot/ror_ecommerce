@@ -1,12 +1,12 @@
 repo_name: DimondDot/ror_ecommerce
-report_id: 802be23d4a5ec6171ac85a10989e45fc
+report_id: f90b44e7e1e0374242b16d41db3e799e
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-29T20:09:36+00:00'
+timestamp: '2024-03-22T08:12:23+00:00'
 requested_by: drhenner
 provider: github
 branch: master
-detected_tools_count: 58
+detected_tools_count: 54
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -145,18 +145,19 @@ tools:
   detection_source: ".travis.yml"
   last_updated_by: Dean Perry
   last_updated_on: 2012-09-08 16:23:36.000000000 Z
-- name: npm
-  description: The package manager for JavaScript.
-  website_url: https://www.npmjs.com/
+- name: Heroku
+  description: Build, deliver, monitor and scale web apps and APIs with a trail blazing
+    developer experience.
+  website_url: https://www.heroku.com
   open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Front End Package Manager
-  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile
-  detection_source: Gemfile
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
+  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/config/environments/production.rb
+  detection_source: config/environments/production.rb
   last_updated_by: David Henner
-  last_updated_on: 2010-10-17 04:06:06.000000000 Z
+  last_updated_on: 2013-02-07 19:35:11.000000000 Z
 - name: Paperclip
   description: A file attachment management for ActiveRecord
   website_url: https://github.com/thoughtbot/paperclip
@@ -243,20 +244,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-07-11 00:49:10.000000000 Z
-- name: american_date
-  description: American style month/day/year date parsing for ruby 1.9
-  package_url: https://rubygems.org/american_date
-  version: 1.1.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Henner
-  last_updated_on: 2016-07-02 20:34:48.000000000 Z
 - name: authlogic
   description: An unobtrusive ruby authentication library based on ActiveRecord
   package_url: https://rubygems.org/authlogic
@@ -417,21 +404,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
-- name: config
-  description: 'Easiest way to manage multi-environment settings in any ruby project
-    or framework: Rails'
-  package_url: https://rubygems.org/config
-  version: 1.4.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Henner
-  last_updated_on: 2016-06-12 23:28:08.000000000 Z
 - name: database_cleaner
   description: Strategies for cleaning databases
   package_url: https://rubygems.org/database_cleaner
@@ -519,20 +491,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2010-10-17 04:06:06.000000000 Z
-- name: foundation-rails
-  description: Foundation on Sass/Compass
-  package_url: https://rubygems.org/foundation-rails
-  version: 6.2.3
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Henner
-  last_updated_on: 2017-08-09 05:50:51.000000000 Z
 - name: friendly_id
   description: FriendlyId is the "Swiss Army bulldozer" of slugging and permalink
     plugins for Active Record
@@ -578,10 +536,22 @@ tools:
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
   vulnerabilities:
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11023
+    cve_url: https://github.com/advisories/GHSA-jpcq-cgw6-v4j6
+    detected_date: May 5
+    severity: moderate
+    first_patched: 4.4.0
   - name: jQuery Cross Site Scripting vulnerability
     cve_id: CVE-2020-23064
     cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
     detected_date: Jul 8
+    severity: moderate
+    first_patched: 4.4.0
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11022
+    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
+    detected_date: Sep 26
     severity: moderate
     first_patched: 4.4.0
   - name: XSS in jQuery as used in Drupal, Backdrop CMS, and other products
@@ -590,18 +560,6 @@ tools:
     detected_date: May 31
     severity: moderate
     first_patched: 4.3.4
-  - name: Potential XSS vulnerability in jQuery
-    cve_id: CVE-2020-11022
-    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 4.4.0
-  - name: Potential XSS vulnerability in jQuery
-    cve_id: CVE-2020-11023
-    cve_url: https://github.com/advisories/GHSA-jpcq-cgw6-v4j6
-    detected_date: May 5
-    severity: moderate
-    first_patched: 4.4.0
 - name: jquery-ui-rails
   description: JQuery UI's JavaScript
   package_url: https://rubygems.org/jquery-ui-rails
@@ -617,11 +575,10 @@ tools:
   last_updated_by: David Henner
   last_updated_on: 2017-08-09 05:50:51.000000000 Z
   vulnerabilities:
-  - name: jQuery UI vulnerable to XSS when refreshing a checkboxradio with an HTML-like
-      initial text label
-    cve_id: CVE-2022-31160
-    cve_url: https://github.com/advisories/GHSA-h6gj-6jjq-h8g9
-    detected_date: Sep 27
+  - name: XSS in the `of` option of the `.position()` util in jquery-ui
+    cve_id: CVE-2021-41184
+    cve_url: https://github.com/advisories/GHSA-gpqq-952q-5327
+    detected_date: Sep 26
     severity: moderate
     first_patched: 7.0.0
   - name: XSS in `*Text` options of the Datepicker widget in jquery-ui
@@ -636,10 +593,11 @@ tools:
     detected_date: Sep 26
     severity: moderate
     first_patched: 7.0.0
-  - name: XSS in the `of` option of the `.position()` util in jquery-ui
-    cve_id: CVE-2021-41184
-    cve_url: https://github.com/advisories/GHSA-gpqq-952q-5327
-    detected_date: Sep 26
+  - name: jQuery UI vulnerable to XSS when refreshing a checkboxradio with an HTML-like
+      initial text label
+    cve_id: CVE-2022-31160
+    cve_url: https://github.com/advisories/GHSA-h6gj-6jjq-h8g9
+    detected_date: Sep 27
     severity: moderate
     first_patched: 7.0.0
 - name: json
@@ -771,6 +729,12 @@ tools:
     detected_date: Sep 28
     severity: high
     first_patched: 1.12.5
+  - name: Out-of-bounds Write in zlib affects Nokogiri
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
   - name: libxslt Type Confusion vulnerability that affects Nokogiri
     cve_id: CVE-2019-13118
     cve_url: https://github.com/advisories/GHSA-cf46-6xxh-pc75
@@ -845,26 +809,20 @@ tools:
     severity: high
     first_patched: 1.13.2
   - name: Integer Overflow or Wraparound in libxml2 affects Nokogiri
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-cgx6-hpwq-fhv5
     detected_date: May 19
     severity: high
     first_patched: 1.13.5
   - name: Vulnerable dependencies in Nokogiri
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-fq42-c5rg-92c2
     detected_date: Feb 26
     severity: high
     first_patched: 1.13.2
   - name: Denial of Service (DoS) in Nokogiri on JRuby
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-gx8x-g87m-h5q6
-    detected_date: Apr 12
-    severity: high
-    first_patched: 1.13.4
-  - name: Out-of-bounds Write in zlib affects Nokogiri
-    cve_id: 
-    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
     detected_date: Apr 12
     severity: high
     first_patched: 1.13.4
@@ -874,14 +832,14 @@ tools:
     detected_date: Jun 10
     severity: moderate
     first_patched: 1.8.3
-  - name: Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability
-    cve_id: CVE-2020-26247
-    cve_url: https://github.com/advisories/GHSA-vr8q-g5c7-m54m
-    detected_date: Aug 22
+  - name: Use-after-free in libxml2 via Nokogiri::XML::Reader
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-vcc3-rw6f-jv97
+    detected_date: Mar 19
     severity: moderate
-    first_patched: 1.11.0
+    first_patched: 1.15.6
   - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
     detected_date: Oct 18
     severity: moderate
@@ -893,11 +851,11 @@ tools:
     severity: moderate
     first_patched: 1.11.4
   - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
     detected_date: Feb 6
     severity: moderate
-    first_patched: 1.16.2
+    first_patched: 1.15.6
   - name: Uncontrolled resource consumption in nokogiri
     cve_id: CVE-2017-18258
     cve_url: https://github.com/advisories/GHSA-882p-jqgm-f45g
@@ -905,23 +863,29 @@ tools:
     severity: moderate
     first_patched: 1.8.2
   - name: XML Injection in Xerces Java affects Nokogiri
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-xxx9-3xcr-gjj3
     detected_date: Apr 12
     severity: moderate
     first_patched: 1.13.4
   - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
     detected_date: Apr 12
     severity: moderate
     first_patched: 1.14.3
   - name: Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-7rrm-v45f-jp64
     detected_date: Aug 22
     severity: moderate
     first_patched: 1.11.4
+  - name: Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability
+    cve_id: CVE-2020-26247
+    cve_url: https://github.com/advisories/GHSA-vr8q-g5c7-m54m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.0
 - name: prawn
   description: Prawn is a fast, tiny, and nimble PDF generator for Ruby
   package_url: https://rubygems.org/prawn
@@ -946,20 +910,6 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19298/default_665ed3fcb2a1ba0439337b543b18095155087d89.png
-  detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Henner
-  last_updated_on: 2017-08-09 05:50:51.000000000 Z
-- name: rails3-generators
-  description: Rails 3 compatible generators for gems that don't have them yet
-  package_url: https://rubygems.org/rails3-generators
-  version: 1.0.0
-  license: MIT,Ruby
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
   detection_source_url: https://github.com/DimondDot/ror_ecommerce/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Henner
@@ -1119,4 +1069,4 @@ tools:
     cve_url: https://github.com/advisories/GHSA-8mq4-9jjh-9xrc
     detected_date: Feb 29
     severity: moderate
-    first_patched: 0.9.35
+    first_patched: 0.9.36
